@@ -1,7 +1,7 @@
 JavascriptStarterWeekend
 ========================
 
-infometarial for the SundXplosion JavascriptWeekend 2014
+Infometarial für das SundXplosion JavascriptWochenende 2014
 
 #Zeitplan
 * Am Samstag Beginnen wir Früh um **9:00** mit einem Einsteigerkurs für HTML5 und CSS3. Neben den Grundlagen zeigen wir euch wie ihr mit Bootstrap ein "responsive Design" erstellt.
