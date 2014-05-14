@@ -13,14 +13,14 @@ Infometarial für das SundXplosion JavascriptWochenende 2014
 #nützliche Programme
 Wenn ihr mögt, könnt ihr euch vorab schon mal ein mit etwas Software vorbereiten. Wir werden euch aber auch vor Ort mit der installation unterstützen, außerdem sind die Programme in der Liste keine Notwendigkeit.
 
-* der Chrome-Browser, die beispiele werden darin gezeigt und die Developer-tools sind klasse
-* nodepad++, schneller kleiner Editor, mit vielen Funktionen. 
-* WinRar oder 7Zip, um das Infopacket hier von github zu entpacken, besser währe jedoch gleich git zu installieren. 
-* wamp, Sammlung an server-programmen für windows. das wichtigste daran der Apache und Mysql Server
-* nodeJS + express.js + cordova, 
+* der **Chrome**-Browser, die beispiele werden darin gezeigt und die Developer-tools sind klasse
+* **nodepad++**, schneller kleiner Editor, mit vielen Funktionen. 
+* **WinRar** oder **7Zip**, um das Infopacket hier von github zu entpacken, besser währe jedoch gleich **git** zu installieren. 
+* **wamp**, Sammlung an server-programmen für windows. das wichtigste daran der Apache und Mysql Server
+* **nodeJS** + **express.js** + **cordova**, 
 
 
 #sonstiges
-Wir bieten euch eine Kaffee und Teeflat über das Wochenende für 5€
+Wir bieten euch für 5€ eine Kaffee- und Teeflat über das Wochenende.
 
 
