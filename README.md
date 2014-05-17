@@ -10,14 +10,17 @@ Infometarial für das SundXplosion JavascriptWochenende 2014
 * Ab Sonntag lassen wir euch Morgends Zeit für die Europawahl und starten am **10:00** mit der programmierung eines Anwendungs-Servers auf Basis von node + express.js. Es wird dargestellt, wie dafür gesorgt wird, dass die Anwendungen auch große Mängen an Zugriffen bewältigen kann. Dazu werden die unterschiedlichen Formen von Caching gezeigt.
 * Später geht es dann ab **13 Uhr** um die Speicherung der Daten in Form von Dokumenten in der NoSQL Datenbank CouchDB. Anfragen werden hier nicht wie gewohnt anhand der Datenstruktur gestellt, sondern an vorbereitete Views.
 
-#nützliche Programme
-Wenn ihr mögt, könnt ihr euch vorab schon mal ein mit etwas Software vorbereiten. Wir werden euch aber auch vor Ort mit der installation unterstützen, außerdem sind die Programme in der Liste keine Notwendigkeit.
+#bringt eure Freunde mit
+Programmieren zu lernen ist sicher nicht nur für euch interessant, sondern auch für eure Freunde eine wertvolle Fertigkeit. 
 
-* der **Chrome**-Browser, die beispiele werden darin gezeigt und die Developer-tools sind klasse
-* **nodepad++**, schneller kleiner Editor, mit vielen Funktionen. 
+#nützliche Programme
+Wenn ihr mögt, könnt ihr euch vorab schon mal etwas Software installieren. Wir werden euch aber auch vor Ort bei der installation unterstützen, außerdem sind die Programme in der Liste keine Notwendigkeit.
+
+* den **Chrome** oder **firefox**-Browser, die Developer-tools sind in diesen Browsern einfach am bessten.
+* **nodepad++**, schneller kleiner Editor, mit vielen Funktionen. Ganz neu und modern empfehle ich noch den **Brackets** von adobe, der übrigends in JS programmiert ist.
 * **WinRar** oder **7Zip**, um das Infopacket hier von github zu entpacken, besser währe jedoch gleich **git** zu installieren. 
-* **wamp**, Sammlung an server-programmen für windows. das wichtigste daran der Apache und Mysql Server
-* **nodeJS** + **express.js** + **cordova**, 
+* **wamp** oder **xampp**, Sammlung an server-programmen für windows. das wichtigste daran der Apache und Mysql Server
+* **nodeJS** + **express.js** + **cordova**, das geht aber auch recht schnell und wird erst am Sonntag interessant.
 
 
 #sonstiges
