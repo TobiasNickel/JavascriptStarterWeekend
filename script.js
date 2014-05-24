@@ -1,9 +1,13 @@
-var counterDisplay=document.getElementById("counter");
-var bildElement=document.getElementById("bild");
+var counterDisplay;
+var bildElement;
 
 var count=0;
 var zaehleHoch =function zaehleHoch(){
 	counterDisplay.innerHTML=count;
 	count++;
 }
-bildElement.onclick=zaehleHoch;
+document.onload=function(){
+	counterDisplay=document.getElementById("counter");
+	bildElement=document.getElementById("bild");
+	bildElement.onclick=zaehleHoch;
+}
