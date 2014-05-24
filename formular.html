@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"> 
+		<title>Javascriptworkshop</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+			<div class="navi col-sm-4 col-xs-12 hidden-xs">
+				<h2>Navigation</h2>
+				<ul>
+					<li><a href="http://www.sxlan.de">
+						SundXplosion
+					</a></li>
+					<li><a href="http://buildbabel.com">
+						Buildbabel
+					</a></li>
+					<li><a href="http://w3schools.com">
+						w3schools
+					</a></li>
+					<li><a href="https://github.com/TobiasNickel/JavascriptStarterWeekend">Github
+					</a></li>
+					<li><a href="http://flukeout.github.io/">css dinner
+					</a></li>
+					<li><a href="index.html">index
+					</a></li>
+					<li><a href="formular.html">formular
+					</a></li>
+				</ul>
+			</div>
+				<div class="content col-sm-8 col-xs-12">
+					<h1>FormularElemente</h1>
+					<form action="formular.html" method="get">
+						<input name="eingabe" type="number" class="form-control">
+						<select name="auswahl" class="form-control">
+							<option value="1">sehr gut</option>
+							<option value="2" >gut</option>
+							<option value="3" selected>geht</option>
+							<option value="4">bestanden</option>
+							<option value="5">pech gehabt</option>
+							<option value="6">trottel</option>
+						</select>
+						<ul>
+							<li><input type="radio" name="zahlEingabe" value="1"> eins</li>
+							<li><input type="radio" name="zahlEingabe" value="2"> zwei</li>
+							<li><input type="radio" name="zahlEingabe" value="3"> drei</li>
+							<li><input type="radio" name="zahlEingabe" value="4"> vier</li>
+						</ul>
+						<ul>
+							<li><input type="checkbox" name="ckeck1" value="1"> eins</li>
+							<li><input type="checkbox" name="ckeck2" value="2"> zwei</li>
+							<li><input type="checkbox" checked name="ckeck3" value="3"> drei</li>
+							<li><input type="checkbox" name="ckeck4" value="4"> vier</li>
+						</ul>
+						<input type="range" max="200" min="0" step="20" name="bereich">
+						<input type="submit" value="senden" class="btn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
