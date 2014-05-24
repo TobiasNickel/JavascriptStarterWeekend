@@ -1,20 +1,20 @@
-a{
-	font-weight: bold;
-	color:#00ff00;
-}
-ul{
-	margin-left:20px;
-	color: #ff0000;
-}
-table{
-	background-color: lightgreen;
-}
-.navi{
-	background-color:lightblue;
+/*
+ * staticJS-server
+ * Author: Tobias Nickel
+ */
 
-}
-.navi a{color:black;}
-.content{
-	padding:20px;
-	background-color: lightgreen;
-}
+var express = require('express');
+var app = express();
+app.use(express.static(__dirname + '/static'));
+// simple logger
+app.use(function(req, res, next){
+  console.log('%s %s', req.method, req.url);
+  next();
+});
+
+// respond
+app.use(function(req, res, next){
+  res.send('not found');
+});
+
+app.listen(3000);
