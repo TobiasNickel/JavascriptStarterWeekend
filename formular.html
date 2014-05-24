@@ -56,25 +56,27 @@
 							<li><input type="checkbox" name="ckeck4" value="4"> vier</li>
 						</ul>
 						<input type="range" max="200" min="0" step="20" name="bereich">
-						<input type="submit" value="senden" class="btn">
+						<input type="submit" name="sub" value="senden" class="btn">
+						<input type="submit" name="sub" value="weitersenden" class="btn">
 					</form>
 				</div>
 			</div>
 		</div>
 		<script>
-			function validateForm(e){
+			var form = document.getElementsByTagName("form")[0];
+			var validateFunction = function validateForm(e){
 				var eingabefeld = document.getElementById("NummernEingabe");
 				var val = parseFloat(eingabefeld.value);
+				console.log(e,form)
 				if(val<8){
 					console.log("kleiner acht",val);
 					return true;
-				}else{
+				} else {
 					console.log("größer acht",val);
 					return false;
 				}
 			};
-			var form= document.getElementsByTagName("form")[0];
-			form.addEventListener("onsubmit",validateForm);
+			form.onsubmit=validateFunction;
 		</script>
 	</body>
 </html>
