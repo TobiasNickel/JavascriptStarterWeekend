@@ -22,6 +22,11 @@ Wenn ihr mögt, könnt ihr euch vorab schon mal etwas Software installieren. Wir
 * **wamp** oder **xampp**, Sammlung an server-programmen für windows. das wichtigste daran der Apache und Mysql Server
 * **nodeJS** + **express.js** + **cordova**, das geht aber auch recht schnell und wird erst am Sonntag interessant.
 
+#nützliche Programme zum Sonntag:
+Es währe sehr hilfreich, wenn ihr euch für morgen schon mal die Java-SDK (JDK) installiert und das Android Development Kit herrunterladet. Außerdem muss WinAnt Installiert werden, aber das machen wir lieber erst morgen im Workshop.
+* http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* https://code.google.com/p/winant/
+* http://developer.android.com/sdk/index.html
 
 #sonstiges
 Wir bieten euch für 5€ eine Kaffee- und Teeflat über das Wochenende.
