@@ -6,8 +6,9 @@ var zaehleHoch =function zaehleHoch(){
 	counterDisplay.innerHTML=count;
 	count++;
 }
-document.onload=function(){
+
+$(document).ready( function(){
 	counterDisplay=document.getElementById("counter");
 	bildElement=document.getElementById("bild");
 	bildElement.onclick=zaehleHoch;
-}
+});
