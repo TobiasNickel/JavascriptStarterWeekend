@@ -34,7 +34,7 @@
 				<div class="content col-sm-8 col-xs-12">
 					<h1>FormularElemente</h1>
 					<form action="formular.html" method="get">
-						<input name="eingabe" type="number" class="form-control">
+						<input name="eingabe" type="number" id="NummernEingabe" class="form-control">
 						<select name="auswahl" class="form-control">
 							<option value="1">sehr gut</option>
 							<option value="2" >gut</option>
@@ -61,5 +61,20 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			function validateForm(e){
+				var eingabefeld = document.getElementById("NummernEingabe");
+				var val = parseFloat(eingabefeld.value);
+				if(val<8){
+					console.log("kleiner acht",val);
+					return true;
+				}else{
+					console.log("größer acht",val);
+					return false;
+				}
+			};
+			var form= document.getElementsByTagName("form")[0];
+			form.addEventListener("onsubmit",validateForm);
+		</script>
 	</body>
 </html>
