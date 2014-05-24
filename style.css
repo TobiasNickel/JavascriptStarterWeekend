@@ -1,0 +1,20 @@
+a{
+	font-weight: bold;
+	color:#00ff00;
+}
+ul{
+	margin-left:20px;
+	color: #ff0000;
+}
+table{
+	background-color: lightgreen;
+}
+.navi{
+	background-color:lightblue;
+
+}
+.navi a{color:black;}
+.content{
+	padding:20px;
+	background-color: lightgreen;
+}
