@@ -1,6 +1,11 @@
 var http = require('http');
+var fs = require("fs");
 
-var bestellungen=[];//{"product":""}
+var bestellungenFileName="./bestellungen.json";
+var bestellungen=JSON.parse(
+	fs.readFileSync(bestellungenFileName)
+);//{"product":""}
+	
 var neueBestellungClients=[];
 
 http.createServer(function (request, response) {
@@ -19,6 +24,10 @@ http.createServer(function (request, response) {
 		case "createBestellung":
 			var neueBestellung={product:urlPieces[2]}
 			bestellungen.push(neueBestellung);
+			fs.writeFile(
+				bestellungenFileName, 
+				JSON.stringify(bestellungen)
+			);
 			response.end(JSON.stringify(true));
 			for(var i in neueBestellungClients){
 				neueBestellungClients[i].end(

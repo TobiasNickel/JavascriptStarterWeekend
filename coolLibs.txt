@@ -1,0 +1,13 @@
+Pixi.js ; http://www.pixijs.com/
+tiled ; http://www.mapeditor.org/
+Spine ; http://de.esotericsoftware.com/
+
+three.js ; http://threejs.org/
+jQuery ; http://jquery.com/
+bootstrap ; http://getbootstrap.com/
+couchdb ; http://couchdb.apache.org/
+t3n ; http://t3n.de/
+node.js ; http://nodejs.org/
+express ; http://expressjs.com/
+w3schools ; http://www.w3schools.com/
+socket.js ; http://socket.io/
