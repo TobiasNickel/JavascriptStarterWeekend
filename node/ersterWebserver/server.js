@@ -1,6 +1,7 @@
 var http = require('http');
 
 var bestellungen=[];//{"product":""}
+var neueBestellungClients=[];
 
 http.createServer(function (request, response) {
 	response.writeHead(200, {'Content-Type': 'text/plain'});
@@ -16,15 +17,23 @@ http.createServer(function (request, response) {
 			);
 			break;
 		case "createBestellung":
-			bestellungen.push({product:urlPieces[2]});
+			var neueBestellung={product:urlPieces[2]}
+			bestellungen.push(neueBestellung);
 			response.end(JSON.stringify(true));
+			for(var i in neueBestellungClients){
+				neueBestellungClients[i].end(
+					JSON.stringify(
+						neueBestellung
+					)
+				);
+			}
+			neueBestellungClients=[];
+			break;
+		case "neueBestellung.json":
+			neueBestellungClients.push(response);
 			break;
 		case "alleBestellungen.json":
-			response.end(
-				JSON.stringify(
-					bestellungen
-				)
-			);
+			response.end(JSON.stringify(bestellungen));
 			break;
 		default:
 			response.end('Hello World\n');
